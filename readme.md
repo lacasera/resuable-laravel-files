@@ -5,7 +5,7 @@ This is a collection of resuable Laravel components
 | File | Type | Description | Usage |
 |------|------|-------------|-------|
 |RequiredQueryParams.php| Middleware | Middleware to validate all Query Parameters | Add it to the appropriate middleware array |
-|BaseJsonRequest.php|Request Validator| Validates JSON Requests  | Create a form request that BaseJsonRequest|
+|BaseJsonRequest.php|Request Validator| Validates JSON Requests  | Create a form request that extends BaseJsonRequest|
 
 
 ##### Example for BaseJsonRequest.php
